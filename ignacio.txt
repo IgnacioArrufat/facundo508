@@ -1,0 +1,23 @@
+Crear un repertorio en el pc:
+-opcional: git config --global user.name "IgnacioArrufat"
+	  git config --global user.mail "<gtignacio@hotmail.com>"
+
+-ponemos varias veces cd .. para ir a disco local c y accedemos a una carpeta por ejem: cd prueba
+-ponemos mkdir para crear carpeta ejem: mkdir hola
+-accetedos a esa carpeta "hola" poniendo cd hola
+-una vez dentro ponemos git init y se habra creado el repositorio
+
+Añadir archivos a ese depositorio:
+-añadimos un archivo a la carpeta de forma facil y monemos git add "+ rl nombre del archivo"
+- ls -l
+-git init
+-git add .
+
+Subir  archivos a git
+-git commit -m 'primer commit'
+-git remote add origin https://github.com/IgnacioArrufat/ignacioexamen.git
+-git push -u origin master
+
+Bajar archivos de git
+- git pull origin master
+-
